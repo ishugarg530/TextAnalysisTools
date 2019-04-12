@@ -10,6 +10,28 @@ namespace Assignment5b
     {
         static void Main(string[] args)
         {
+            Program a = new Program();
+            Console.WriteLine("the lomgest word is: ");
+            Console.WriteLine(a.MyFunctionA("Ada Lovelace wrote the first algorithm designed for procesing bt an analytical Engine."));
+
+        }
+        public MyFunctionA(string input)
+        {
+            string[] words = input.Split('');
+            int wordArrayLength = new int[wordArrayLength];
+
+            foreach (var word in words)
+            {
+               
+            }
+            string currentWord = words[0];
+            string nextWord;
+            for (int y = 0; y< words.Length-1; y++)
+            {
+                currentWord = words[y];
+                nextWord = words[y + 1];
+
+            }
 
         }
     }
